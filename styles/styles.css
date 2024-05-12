@@ -13,11 +13,11 @@ h1 {
     color: steelblue;
 }
 img {
-    width: 150px;
+    width: 300px;
     height: auto;
-    border: 1pxsolid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+    border: 3pxsolid steelblue;
+    padding: 3px;
+    box-shadow: 0 0 40px gray;
 }
 p {
     padding: 10px;
