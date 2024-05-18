@@ -60,12 +60,5 @@ img {
 p {
     padding: 10px;
 }
-/* add css grid for week04 */
-header {
-	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
+
 }
