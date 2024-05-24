@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Lobster&display=swap');
+
+:root {
+  --primary-color: #396e94;
+  --secondary-color: #e7c24f;
+  --accent1-color: #a43312;
+  --accent2-color: #381d2a;
+
+  --heading-font: 'Lobster', cursive;
+  --paragraph-font: 'Open Sans', sans-serif;
+
+  --nav-background-color: #396e94;
+  --nav-link-color: #ffffff;
+  --nav-hover-link-color: #396e94;
+  --nav-hover-background-color: #e7c24f;
+}
+
+
 html {
     font-size: 10px; 
     font-family: "Open Sans", sans-serif; 
