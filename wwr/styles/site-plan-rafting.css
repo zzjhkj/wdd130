@@ -1,5 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Lobster&display=swap');
+
+:root {
+    --primary-color: #396e94;
+    --secondary-color: #e7c24f;
+    --accent1-color: #a43312;
+    --accent2-color: #381d2a;
+
+    --heading-font: 'Lobster', cursive;
+    --paragraph-font: 'Open Sans', sans-serif;
+
+    --nav-background-color: #396e94;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #396e94;
+    --nav-hover-background-color: #e7c24f;
+}
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+    color: #fff;
+    text-align: center;
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--accent2-color);
+    color: #fff;
 }
