@@ -25,6 +25,11 @@ html {
     width: 100%;
     height: auto;
   }
+  .logo img {
+    display:flow-root;
+    width: 15%;
+    height: 10%;
+  }
 
   .sociallinks img {
         width: 20px;
@@ -33,18 +38,5 @@ html {
         padding: 3px;
         box-shadow: 0 0 20px gray;
     }
-  /* add css grid for week04 */
-header {
-	margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 120px 1fr 2fr;
-	align-items: center;
-	border-bottom: 1px solid #ccc;
-	max-width: 1000px;
-}
 
-.logo img {
-	margin: 0 0.25rem 0 1rem;
-	width: 64px;
-	height: auto;
-}
+  /* add css grid for week04 */
