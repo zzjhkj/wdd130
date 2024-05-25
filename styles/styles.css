@@ -42,6 +42,8 @@ h1 {
 }
 
 aside {
+    width: 20rem;
+    position: relative;
     grid-column: 1 / 2;
     grid-row: 1;
 }
