@@ -1,6 +1,6 @@
 /* week04 */
 
-header,  .gird, footer {
+header,footer, .grid {
     margin: 0 auto;
     max-width: 840px;
 }
