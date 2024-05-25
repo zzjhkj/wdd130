@@ -51,14 +51,13 @@ body {
 }
 
 header {
-  background-color: steelblue;
-  color: white;
+  background-color: #accbec; 
   padding: 1rem 0;
 }
 
 .header-grid {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
@@ -76,7 +75,7 @@ nav {
 }
 
 nav a {
-  color: white;
+  color: #333;
   text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
@@ -88,28 +87,76 @@ main {
   padding: 0 20px;
 }
 
+.white-water {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.white-water .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.white-water .content p {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.white-water .content img {
+  width: 200px;
+  height: auto;
+}
+
 .history {
   margin-bottom: 40px;
+  text-align: center;
+}
+
+.history .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.history .content p {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.history .content img {
+  width: 200px;
+  height: auto;
 }
 
 .adventures {
+  text-align: center;
+}
+
+.adventures h2 {
+  margin-bottom: 20px;
+}
+
+.adventure-images {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
 }
 
-.adventures figure {
+.adventure-images figure {
   margin: 0;
   text-align: center;
 }
 
-.adventures img {
+.adventure-images img {
   width: 100%;
   height: auto;
 }
 
 footer {
-  background-color: #f6f4f36f;
+  background-color: #3d5bae;
   color: white;
   padding: 1rem 0;
 }
