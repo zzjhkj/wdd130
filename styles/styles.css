@@ -1,3 +1,13 @@
+/* week04 */
+
+header, 
+footer,
+.gird    {
+    max-width: 840px;
+    margin: 0 auto;
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,32 +16,43 @@
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
-    padding: 10px;
     display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff; /* shorthand for white */
 }
 
 h1 {
     color: steelblue;
     padding: .5rem;
+    border-bottom: 1px solid steelblue;
+    padding-bottom: 10px;
 }
 
-main {
-    max-width: 840px;
+ main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+.gird {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 200px 200px;
 }
 
 aside {
-    width: 20em;
-    /* margin: 1em;
-    border: 1px solid rgba(0, 0, 0, 0.2); 
-    padding: 1em;
-    background-color: #eee;
-    color: #333;  */
-    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 20rem;
     position: relative;
 }
 
@@ -74,3 +95,4 @@ footer {
     background-color: #eee;
     color: #000;
 }
+
