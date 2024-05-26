@@ -175,3 +175,52 @@ footer {
   height: auto;
   margin-left: 10px;
 }
+
+/* week05 */
+
+/* Contact Page Styles */
+#contact-info, #employee-profiles, #contact-form {
+  margin: 20px 0;
+}
+
+#contact-info p, #employee-profiles .employee, #contact-form label {
+  margin: 10px 0;
+}
+
+#map iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+}
+
+.employee {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.employee img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form form div {
+  margin-bottom: 10px;
+}
+
+#contact-form button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#contact-form button:hover {
+  background-color: #45a049;
+}
