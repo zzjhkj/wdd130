@@ -32,7 +32,7 @@ h1 {
     color: steelblue;
     padding: .5rem;
     border-bottom: 1px solid steelblue;
-    padding-bottom: 10px;
+    margin: 30px 0;
 }
 
 .grid {
@@ -59,9 +59,9 @@ aside img {
 }
 
 aside h2 {
-    position: sticky;
-    top: 150px;
-    left: 130px;
+    position: absolute;
+    top: 50px;
+    
 }
 
 main img {
