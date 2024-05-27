@@ -227,7 +227,8 @@ footer {
 
 /* week06 trips */
 #trips img {
-  width: 20rem;
+  width: 30rem;
+  display: flex;
 }
 
 #trips title {
