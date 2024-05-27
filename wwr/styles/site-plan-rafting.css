@@ -3,8 +3,8 @@
 :root {
     --primary-color: #396e94;
     --secondary-color: #e7c24f;
-    --accent1-color: #a43312;
-    --accent2-color: #381d2a;
+    --accent1-color: #a3dfeb;
+    --accent2-color: #8ccae6;
 
     --heading-font: 'Lobster', cursive;
     --paragraph-font: 'Open Sans', sans-serif;
@@ -66,7 +66,7 @@ nav a:hover {
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background-color: var(--accent2-color);
     color: #fff;
 }
